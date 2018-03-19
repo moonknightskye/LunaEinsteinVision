@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>Title</key>
+	<string>Luna EV</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Splash Screen</string>
+			<key>Key</key>
+			<string>user_splash_screen</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>Shake 1 time or greater</string>
+				<string>Shake 3 times or greater</string>
+				<string>Shake 6 times or greater</string>
+				<string>1-finger right edge swipe</string>
+				<string>2-finger right edge swipe</string>
+				<string>3-finger right edge swipe</string>
+				<string>1-finger left edge swipe</string>
+				<string>2-finger left edge swipe</string>
+				<string>3-finger left edge swipe</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Shake 1 time or greater</string>
+				<string>Shake 3 times or greater</string>
+				<string>Shake 6 times or greater</string>
+				<string>1-finger right edge swipe</string>
+				<string>2-finger right edge swipe</string>
+				<string>3-finger right edge swipe</string>
+				<string>1-finger left edge swipe</string>
+				<string>2-finger left edge swipe</string>
+				<string>3-finger left edge swipe</string>
+			</array>
+			<key>Title</key>
+			<string>Show on</string>
+			<key>Key</key>
+			<string>user_show_settings</string>
+			<key>DefaultValue</key>
+			<string>Shake 3 times or greater</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Startup Page</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>Document</string>
+				<string>URL</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Document</string>
+				<string>URL</string>
+			</array>
+			<key>Title</key>
+			<string>Page Type</string>
+			<key>Key</key>
+			<string>user_startup_type</string>
+			<key>DefaultValue</key>
+			<string>URL</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>HTML File or URL</string>
+			<key>Key</key>
+			<string>user_startup_page</string>
+			<key>DefaultValue</key>
+			<string>https://www.your_site_here.com</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Enabled</string>
+			<key>Key</key>
+			<string>user_startup_enabled</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>
