@@ -1,6 +1,6 @@
-<p align="center"><a href='http://reactide.io/'><img alt="reactide" src="http://reactide.io/images/reactide-header.png" height="60%" width="60%"></a></p>
+<p align="center"><a href='https://github.com/moonknightskye/LunaEinsteinVision'><img alt="luna" src="https://luna-10.herokuapp.com/img/luna-small.png" height="20%" width="20%"></a></p>
 
-# Luna
+# Luna Einstein Vision
 iOS Swift Javascript Framework
 
 test
